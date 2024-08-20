@@ -1,0 +1,126 @@
+body {
+    background-color: #1a1a1a;
+    background-image: url('https://get.wallhere.com/photo/illustration-digital-art-simple-background-numbers-green-dog-skull-and-bones-biology-3840x2160-px-font-organ-570108.jpg'); /* Sostituisci con un'immagine di nebbia */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #ffffff;
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding-top: 20px; /* Aggiunto spazio sopra */
+}
+
+.card {
+    background: linear-gradient(135deg, #333333, #000000);
+    border: 5px solid #ffcc00;
+    border-radius: 15px;
+    width: 350px;
+    padding: 20px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.8); /* Ombra esterna per effetto nebbia */
+}
+
+.card-header {
+    text-align: center;
+}
+
+.name {
+    font-size: 2em;
+    color: #ffcc00;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.paw {
+    font-size: 1.2em;
+    margin: 0 5px;
+}
+
+.type {
+    font-size: 1.2em;
+    color: #ffffff;
+    background-color: #444444;
+    padding: 5px 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+.card-image {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.card-image img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.card-body {
+    background-color: #222222;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.card-body h2 {
+    color: #ffcc00;
+    margin: 0 0 10px;
+    font-size: 1.5em;
+    display: flex;
+    align-items: center;
+}
+
+.star {
+    color: #ffcc00;
+    margin-left: 10px;
+    font-size: 1.2em;
+}
+
+.ability {
+    font-size: 1.1em;
+    margin-bottom: 15px;
+}
+
+.stats {
+    display: flex;
+    justify-content: space-between;
+}
+
+.stat {
+    background-color: #333333;
+    padding: 10px;
+    border-radius: 10px;
+    width: 45%;
+    text-align: center;
+}
+
+.stat-name {
+    display: block;
+    color: #ffcc00;
+    font-weight: bold;
+}
+
+.stat-value {
+    margin-top: 5px;
+    font-size: 1.2em;
+}
+
+.card-footer {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 0.9em;
+}
+
+.card-footer a {
+    color: #ffcc00;
+    text-decoration: none;
+}
+
+.card-footer a:hover {
+    text-decoration: underline;
+}
