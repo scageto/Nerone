@@ -1,6 +1,6 @@
 body {
     background-color: #1a1a1a;
-    background-image: url('https://get.wallhere.com/photo/illustration-digital-art-simple-background-numbers-green-dog-skull-and-bones-biology-3840x2160-px-font-organ-570108.jpg'); /* Sostituisci con un'immagine di nebbia */
+    background-image: url('https://get.wallhere.com/photo/illustration-digital-art-simple-background-numbers-green-dog-skull-and-bones-biology-3840x2160-px-font-organ-570108.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -11,16 +11,17 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
-    padding-top: 20px; /* Aggiunto spazio sopra */
+    padding-top: 40px; /* Aumentato per migliorare la visualizzazione mobile */
 }
 
 .card {
     background: linear-gradient(135deg, #333333, #000000);
     border: 5px solid #ffcc00;
     border-radius: 15px;
-    width: 350px;
+    width: 90%; /* Resa responsive per schermi piccoli */
+    max-width: 350px;
     padding: 20px;
-    box-shadow: 0 0 30px rgba(0, 0, 0, 0.8); /* Ombra esterna per effetto nebbia */
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.8);
 }
 
 .card-header {
@@ -123,4 +124,26 @@ body {
 
 .card-footer a:hover {
     text-decoration: underline;
+}
+
+/* Media Query per Schermi Piccoli */
+@media only screen and (max-width: 600px) {
+    body {
+        padding-top: 60px; /* Aumentato per evitare che la barra URL copra il contenuto */
+        background-size: contain; /* Assicura che lo sfondo si adatti su schermi piccoli */
+    }
+
+    .card {
+        width: 100%; /* Larghezza completa su mobile */
+        max-width: 350px;
+        padding: 15px;
+    }
+
+    .name {
+        font-size: 1.8em; /* Riduzione del font su mobile */
+    }
+
+    .card-body h2 {
+        font-size: 1.3em; /* Riduzione del font su mobile */
+    }
 }
