@@ -130,7 +130,7 @@ body {
 /* Media Query per Schermi Piccoli */
 @media only screen and (max-width: 600px) {
     body {
-        padding-top: 60px; /* Aumentato per evitare che la barra URL copra il contenuto */
+        padding-top: 160px; /* Aumentato per evitare che la barra URL copra il contenuto */
         background-size: contain; /* Assicura che lo sfondo si adatti su schermi piccoli */
         height: auto;
     }
